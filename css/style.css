@@ -1,0 +1,180 @@
+
+/*nav styles*/
+
+
+/*landing page*/
+.landing {
+    background-image: url("../images/index-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+#shopsipenjoy {
+
+}
+
+
+/* fix sll styles */
+
+/* main */
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: #504843;
+}
+
+.jumbotron-fluid {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 32%;
+    top: 15%;
+}
+
+/* parallax  */
+.bg-img-1 {
+    position: initial;
+    top: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-img-2 {
+
+    background-image: url("../images/mountains.jpeg");
+    min-height: 480px;
+    position: initial;
+    top: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* text */
+
+small {
+    color: white;
+    font-family: 'Krub Light', sans-serif;
+}
+
+a i, nav a i {
+    color: white;
+    width: 20%;
+}
+
+a i:hover {
+    color: #dbdbdb!important;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+a, h1, h2 {
+    color: white;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+h3, h4, h5, form label {
+    color: #cca08b;
+    font-family: 'Krub', sans-serif;
+}
+
+h5 b, h6 {
+    color: #504843;
+}
+
+p {
+    color: #333333;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* nav */
+
+.navbar-brand {
+    color: white!important;
+}
+
+nav a {
+    color: #333;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.navbar-light {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link, .dropdown-toggle {
+    color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .dropdown-toggle:hover {
+    color: maroon;
+}
+
+.weather1 {
+    padding-right: 20px;
+}
+
+#weather2 {
+    color: white;
+    margin-right: 20px;
+}
+
+/* sections */
+
+#cards {
+    padding: 50px;
+}
+
+#contact, #contactform, #news {
+    padding: 50px;
+    background-color: #dbdbdb;
+}
+
+#reserve {
+    padding: 70px;
+    background-color: #333;
+}
+
+#sights {
+    background-color: #dbdbdb;
+}
+
+.things {
+    padding: 50px;
+}
+
+#news {
+    background-color: white;
+}
+
+#bearsimg {
+    padding-bottom: 20px;
+}
+
+.btn-info {
+    width: 250px;
+    height: 100px;
+}
+
+footer {
+    background-color: #eee;
+}
