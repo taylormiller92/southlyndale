@@ -30,7 +30,7 @@ body {
 
 /* parallax  */
 .bg-img-1 {
-    background-image: url("../images/wine-bg.jpg");
+    background-image: url("../images/wine-bgsll.jpg");
     min-height: 100vh;
     position: initial;
     top: 50px;
