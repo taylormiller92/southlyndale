@@ -1,10 +1,504 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/mac5jnz.css">
+    <link  rel="icon" type="image/x-icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mac5jnz.css">
+
+
+    <title>South Lyndale Liquors</title>
 </head>
 <body>
+<!-- start nav -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="images/nav-logo.svg" alt="nav logo" width="75" height="75"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Wine
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="wine.html">Shop Wine</a>
+
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Varietals</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cabernet Sauvignon</a></li>
+                                <li><a class="dropdown-item" href="#">Chardonnay</a></li>
+                                <li><a class="dropdown-item" href="#">Pinot Noir</a></li>
+                                <li><a class="dropdown-item" href="#">Champagne</a></li>
+                                <li><a class="dropdown-item" href="#">Red Blends</a></li>
+                                <li><a class="dropdown-item" href="#">Pinot Grigio/Gris</a></li>
+                                <li><a class="dropdown-item" href="#">Sauvignon Blanc</a></li>
+                                <li><a class="dropdown-item" href="#">Bordeaux Blends</a></li>
+                                <li><a class="dropdown-item" href="#">Merlot</a></li>
+                                <li><a class="dropdown-item" href="#">Zinfandel</a></li>
+                                <li><a class="dropdown-item" href="#">Malbec</a></li>
+                                <li><a class="dropdown-item" href="#">Syrah/Shiraz</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Top Countries & States</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">California</a></li>
+                                <li><a class="dropdown-item" href="#">France</a></li>
+                                <li><a class="dropdown-item" href="#">Italy</a></li>
+                                <li><a class="dropdown-item" href="#">Washington</a></li>
+                                <li><a class="dropdown-item" href="#">Spain</a></li>
+                                <li><a class="dropdown-item" href="#">Australia</a></li>
+                                <li><a class="dropdown-item" href="#">Argentina</a></li>
+                                <li><a class="dropdown-item" href="#">New Zealand</a></li>
+                                <li><a class="dropdown-item" href="#">Chile</a></li>
+                                <li><a class="dropdown-item" href="#">Germany</a></li>
+                                <li><a class="dropdown-item" href="#">Oregon</a></li>
+                                <li><a class="dropdown-item" href="#">South Africa</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Spirits
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="spirits.html">Shop Spirits</a>
+
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Spirit Types</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Vodka</a></li>
+                                <li><a class="dropdown-item" href="#">Gin</a></li>
+                                <li><a class="dropdown-item" href="#">Brandy & Cognac</a></li>
+                                <li><a class="dropdown-item" href="#">Tequila & Mezcal</a></li>
+                                <li><a class="dropdown-item" href="#">Rum</a></li>
+                                <li><a class="dropdown-item" href="#">Cordials</a></li>
+                                <li><a class="dropdown-item" href="#">Scotch</a></li>
+                                <li><a class="dropdown-item" href="#">Bourbon</a></li>
+                                <li><a class="dropdown-item" href="#">Whiskey</a></li>
+                                <li><a class="dropdown-item" href="#">Canadian</a></li>
+                                <li><a class="dropdown-item" href="#">Rye</a></li>
+                                <li><a class="dropdown-item" href="#">Bitters</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Popular Categories</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Single Malt Scotch</a></li>
+                                <li><a class="dropdown-item" href="#">Blended Scotch</a></li>
+                                <li><a class="dropdown-item" href="#">Small Batch Bourbon</a></li>
+                                <li><a class="dropdown-item" href="#">Rye Whiskey</a></li>
+                                <li><a class="dropdown-item" href="#">Flavored Vodka</a></li>
+                                <li><a class="dropdown-item" href="#">Aged Rum</a></li>
+                                <li><a class="dropdown-item" href="#">Spiced Rum</a></li>
+                                <li><a class="dropdown-item" href="#">Ready to Drink</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Beer
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="beer.html">Shop Beer</a>
+
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Beer Types</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">IPA</a></li>
+                                <li><a class="dropdown-item" href="#">Pale Ale</a></li>
+                                <li><a class="dropdown-item" href="#">Wheat Ale</a></li>
+                                <li><a class="dropdown-item" href="#">Belgian</a></li>
+                                <li><a class="dropdown-item" href="#">Sour</a></li>
+                                <li><a class="dropdown-item" href="#">Stout</a></li>
+                                <li><a class="dropdown-item" href="#">Fruit Beer</a></li>
+                                <li><a class="dropdown-item" href="#">Hazy IPA</a></li>
+                                <li><a class="dropdown-item" href="#">Milkshake IPA</a></li>
+                                <li><a class="dropdown-item" href="#">Cider</a></li>
+                                <li><a class="dropdown-item" href="#">Seltzers</a></li>
+                                <li><a class="dropdown-item" href="#">Non-Alcoholic</a></li>
+                                <li><a class="dropdown-item" href="#">Gluten-Free</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Categories</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Craft Beer</a></li>
+                                <li><a class="dropdown-item" href="#">Import Beer</a></li>
+                                <li><a class="dropdown-item" href="#">Domestic</a></li>
+                                <li><a class="dropdown-item" href="#">Seasonal & Special Release</a></li>
+                                <li><a class="dropdown-item" href="#">Malt Beverages & Coolers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="delivery.html">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://southlyndale.blog/">Blog</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search products" aria-label="Search">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+    <!-- end nav -->
+</header>
+<main>
+
+    <div class="container-fluid">
+        <div class="jumbotron-fluid">
+            <img src="images/beerbg.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+
+    <!-- shop delivery -->
+    <section class="ftco-section bg-light deli">
+        <div class="container">
+            <div class="row justify-content-center mb-3 pb-3">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <h2 class="mt-4 mb-4">Shop Beer</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b2.jpg">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Lagunitas IPA 6pk</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span>$8.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b4.jpg" alt="">
+                            <span class="status">10% Off</span>
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Lagunitas Little Sumpin' Ale</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span class="mr-2 price-dc">$8.99</span><span class="price-sale">$7.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b7.jpg" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Summit EPA 6pk</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span>$8.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b6.jpg" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Summit Saga IPA 6pk</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span>$8.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b9.jpg" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Goose Island IPA 4pk</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span>$6.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product d-flex flex-column">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b8.jpg" alt="">
+                            <span class="status">10% Off</span>
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Brooklyn Summer Ale 6pk</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span class="mr-2 price-dc">$8.99</span><span class="price-sale">7.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b10.jpg" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Black Stack Brewing IPA Crowler</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span>$6.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
+                    <div class="product">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="images/products/b1.JPG" alt="">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <span>Beer</span>
+                                </div>
+                                <div class="rating">
+                                    <p class="text-right mb-0">
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3><a href="#">Castle Danger Cream Ale 6pk</a></h3>
+                            <div class="pricing">
+                                <p class="price"><span>$8.99</span></p>
+                            </div>
+                            <p class="bottom-area d-flex px-3">
+                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+<!-- FOOTER -->
+
+<footer>
+    <div class="container py-4">
+        <div class="row">
+            <div class="social col-md-3">
+                <h4>Follow Us</h4><br>
+                <a href="https://www.facebook.com/Southlyndale/">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="https://www.twitter.com/southlyndale">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/southlyndaleliquors/">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <small class="d-block my-4 text-muted">© Taylor Miller 2019</small> </div>
+            <div class="f-links col-3">
+                <h4>Shop</h4>
+                <ul class="list-unstyled text-small">
+                    <li>
+                        <a class="text-muted" href="wine.html">Wine</a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="spirits.html">Spirits</a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="beer.html">Beer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="f-links col-3">
+                <h4>Links</h4>
+                <ul class="list-unstyled text-small">
+                    <li>
+                        <a class="text-muted" href="#">Delivery</a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hours col-3">
+                <h4>Hours</h4>
+                <p>Sunday: 11am - 6pm</p>
+                <p>Monday & Tuesday: 9am - 8pm</p>
+                <p>Wednesday & Thursday: 9am - 9pm</p>
+                <p>Friday & Saturday: 9am - 10pm</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS, then parallax -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/parallax.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
