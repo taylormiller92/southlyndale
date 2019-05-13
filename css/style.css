@@ -181,27 +181,11 @@ footer .fab {
 }
 
 
-/*dropdown submenu*/
-
-.dropdown-submenu {
-    position: relative;
-}
-
-.dropdown-submenu a::after {
-    transform: rotate(-90deg);
-    position: absolute;
-    right: 6px;
-    top: .8em;
-}
-
-.dropdown-submenu .dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-left: .1rem;
-    margin-right: .1rem;
-}
-
 /* product page */
+
+.deli h2 {
+    color: red;
+}
 
 .ftco-product .owl-carousel .owl-stage-outer {
     padding-bottom: 2em;
