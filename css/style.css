@@ -1,22 +1,3 @@
-
-/*nav styles*/
-
-
-/*landing page*/
-.landing {
-    background-image: url("../images/sllbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-#shopsipenjoy {
-
-}
-
-
-/* fix sll styles */
-
 /* main */
 
 body {
@@ -35,7 +16,12 @@ body {
 .jumbotron-fluid {
     width: 100%;
 }
+.pt-5 {
+    padding-top: 15% !important;
+}
 
+
+}
 .logo {
     position: absolute;
     left: 32%;
@@ -44,6 +30,8 @@ body {
 
 /* parallax  */
 .bg-img-1 {
+    background-image: url("../images/wine-bg.jpg");
+    min-height: 100vh;
     position: initial;
     top: 50px;
     background-attachment: fixed;
@@ -55,8 +43,8 @@ body {
 
 .bg-img-2 {
 
-    background-image: url("../images/wine-bg.jpg");
-    min-height: 480px;
+    background-image: url("../images/sllbgos.jpg");
+    min-height: 100vh;
     position: initial;
     top: 50px;
     background-attachment: fixed;
@@ -176,6 +164,7 @@ footer .fab {
 
 .f-links {
     text-align: center;
+    color: red;
 }
 
 .hours {
@@ -183,9 +172,11 @@ footer .fab {
 }
 
 .hours p {
-    font-family: acumin-pro, sans-serif;
+    font-family: 'Arvo', serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 12px;
+    color: red;
 
 }
 
